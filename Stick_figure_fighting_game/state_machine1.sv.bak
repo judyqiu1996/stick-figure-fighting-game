@@ -1,0 +1,75 @@
+module state_machine1(input logic left,right,stand, Clk, kick, fight, 
+							output logic stand_left, stand_right);
+							
+enum logic [2:0] {reset, state1, state2, state3, state4, state5} state, next_state;	
+logic next_stand_left, next_stand_right;
+
+always_ff @(posedge Clk ) begin
+	state <= next_state;
+	stand_left <=next_stand_left;
+	stand_right <=next_stand_right;
+	end
+							
+always_comb 
+	begin
+	next_state = state;
+		case(state) 
+		reset:
+			if(left||right)
+			next_state = state1;
+			else
+			next_state = reset;
+		state1:
+			if(left)
+			next_state = state2;
+			else if(right)
+			next_state = state3;
+			else 
+			next_state = state1;
+		state2:
+			if(stand || kick || fight)
+			next_state = state4;
+			else
+			next_state = state2;
+		state3:
+			if(stand || kick || fight)
+			next_state = state5;
+			else
+			next_state = state3;
+		state4:
+			next_state = state1;
+		state5:
+			next_state = state1;
+		endcase
+	end
+
+always_comb
+	begin
+	next_stand_left = stand_left;
+	next_stand_right = stand_right;
+		case(state) 
+		reset: begin
+			next_stand_left = 1'b1;
+			next_stand_right = 1'b0;	
+
+		state1: ;
+		state2:	begin
+			next_stand_left = 1'b0;
+			next_stand_right = 1'b0;
+			end
+		state3:	begin
+			next_stand_left = 1'b0;
+			next_stand_right = 1'b0;
+			end
+		state4:	begin
+			next_stand_left = 1'b1;
+			next_stand_right = 1'b0;
+			end
+		state5:	begin
+			next_stand_left = 1'b0;
+			next_stand_right = 1'b1;
+			end
+		endcase
+	end
+	
+endmodule

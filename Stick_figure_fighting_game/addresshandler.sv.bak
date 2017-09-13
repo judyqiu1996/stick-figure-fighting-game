@@ -1,0 +1,7 @@
+module address(input [9:0] drawx,drawy,
+					output [12:0] address
+					)
+					
+assign address=(drawy*480+drawx);
+
+endmodule

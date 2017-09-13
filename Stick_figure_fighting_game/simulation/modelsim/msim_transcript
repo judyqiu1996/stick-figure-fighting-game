@@ -1,0 +1,125 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab8_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib nios_system
+# ** Warning: (vlib-34) Library already exists at "nios_system".
+# 
+# vmap nios_system nios_system
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet nios_system nios_system 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work nios_system +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_Keycode.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:30 on Nov 13,2016
+# vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_Keycode.v 
+# -- Compiling module nios_system_Keycode
+# 
+# Top level modules:
+# 	nios_system_Keycode
+# End time: 21:31:30 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/Color_Mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:30 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 21:31:30 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:30 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 21:31:30 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:30 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 21:31:31 on Nov 13,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/ball.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:31 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 21:31:31 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/addresshandler.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:31 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/addresshandler.sv 
+# -- Compiling module address
+# 
+# Top level modules:
+# 	address
+# End time: 21:31:31 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/ram.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:31 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/ram.sv 
+# -- Compiling module frameRAM
+# 
+# Top level modules:
+# 	frameRAM
+# End time: 21:31:31 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:31:31 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb" C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv 
+# -- Compiling module lab8
+# ** Error: C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv(63): (vlog-2110) Illegal reference to net "SRAM_CE_N".
+# 
+# ** Error: C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv(64): (vlog-2110) Illegal reference to net "SRAM_UB_N".
+# 
+# ** Error: C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv(65): (vlog-2110) Illegal reference to net "SRAM_LB_N".
+# 
+# ** Error: C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv(67): (vlog-2110) Illegal reference to net "SRAM_WE_N".
+# 
+# End time: 21:31:31 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera/15.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./lab8_run_msim_rtl_systemverilog.do line 17
+# C:/altera/15.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb {C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8.sv}"
+vsim work.frameRAM
+# vsim -gui "+altera" -l msim_transcript -do "lab8_run_msim_rtl_systemverilog.do" 
+# Start time: 21:31:46 on Nov 13,2016
+# Loading sv_std.std
+# Loading work.frameRAM
+vsim work.frameRAM
+# vsim 
+# Start time: 21:31:50 on Nov 13,2016
+# Loading sv_std.std
+# Loading work.frameRAM
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/frameRAM/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# End time: 23:36:30 on Nov 13,2016, Elapsed time: 2:04:40
+# Errors: 0, Warnings: 0

@@ -1,0 +1,33 @@
+module state_machine(input logic in1, in2,
+							output logic out);
+							
+enum logic [2:0] {state1, state2}state, next_state;	
+							
+always_comb 
+	begin
+	next_state = state;
+		case(state) 
+		state1:
+			if(in1)
+			next_state = state2;
+			else 
+			next_state = state1;
+		state2:
+			if(in2)
+			next_state = state1;
+			else
+			next_state = state2;
+
+		endcase
+	end
+
+always_comb 
+	begin
+	out = out;
+		case(state) 
+		state1: 
+			out = 1'b0;
+		state2:	
+			out = 1'b1;
+		endcase
+	end

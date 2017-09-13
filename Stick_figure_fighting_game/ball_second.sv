@@ -1,0 +1,267 @@
+module  ball_second ( input logic  frame_clk, Reset, Clk, stand_left, stand_right, kick_2, fight_2, jump_2, dodge_2, back_2,  p1win, p2win,
+					input logic [9:0] BallX1, BallY1,
+					input logic [15:0] keycode,keycode1,
+					input logic [1:0] back2,
+					output logic right, left,stand, kick, fight, jump, dodge, back,
+               output logic [9:0]  BallX, BallY); //, BallS );
+    
+    logic [9:0] Ball_X_Pos, Ball_X_Motion, Ball_Y_Pos, Ball_Y_Motion;//, Ball_Size;
+	 logic near, near1;
+	 
+    parameter [9:0] Ball_X_Center=320;  // Center position on the X axis
+    parameter [9:0] Ball_Y_Center=240;  // Center position on the Y axis
+    parameter [9:0] Ball_X_Min=0;       // Leftmost point on the X axis
+    parameter [9:0] Ball_X_Max=639;     // Rightmost point on the X axis
+    parameter [9:0] Ball_Y_Min=0;       // Topmost point on the Y axis
+    parameter [9:0] Ball_Y_Max=479;     // Bottommost point on the Y axis
+    parameter [9:0] Ball_X_Step=5;      // Step size on the X axis
+    parameter [9:0] Ball_Y_Step=2;      // Step size on the Y axis
+	 parameter [9:0] Ball_X_back=1;      // Step size on the X axis
+
+	 	gravity gravity1(.*);
+
+		always_comb begin
+	 		if( (BallX1 >= Ball_X_Pos) && (BallX1 - Ball_X_Pos <= 10'd40) || (BallX1 <= Ball_X_Pos) && ( Ball_X_Pos - BallX1 <= 10'd40))
+			near <= 1'b1;
+		else
+			near <= 1'b0;
+			end
+			
+		always_comb begin
+	 		if( (BallY1 >= Ball_Y_Pos) && (BallY1 - Ball_Y_Pos <= 10'd50) || (BallY1 <= Ball_Y_Pos) && ( Ball_Y_Pos - BallY1 <= 10'd50))
+			near1 <= 1'b1;
+		else
+			near1 <= 1'b0;
+			end	
+																																																											
+    always_ff @ ( posedge frame_clk or posedge Reset )
+    begin: Move_Ball
+		if(Reset) begin
+		Ball_X_Pos = 10'd539;
+		Ball_Y_Pos = 10'd300;
+		Ball_X_Motion <= 10'b0;
+		stand <= 1'b1;
+		right <= 1'b0;
+		left <= 1'b0;
+		kick <= 1'b0;
+		fight <= 1'b0;
+		jump <= 1'b0;
+		dodge <= 1'b0;
+		back <= 1'b0;
+		end
+		
+		else	begin
+		
+		if(p1win || p2win) begin
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b1;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b0;
+							dodge <= 1'b0;
+							back <= 1'b0;
+							Ball_X_Motion <= 10'd0;
+			end
+		
+		else if(back2 == 2'd2) begin
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b0;
+							dodge <= 1'b0;
+							back <= 1'b1;
+							
+				 if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) 
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);// You need to remove this and make both X and Y respond to keyboard input
+				 else if (Ball_X_Pos <= 10'd10 ||  BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1) 
+						Ball_X_Motion <= Ball_X_back;		
+				 else 
+					if(stand_left)
+					Ball_X_Motion <= (~ (10'd8) + 1'b1);
+						else if(stand_right)
+						Ball_X_Motion <= 10'd8;
+						else
+						Ball_X_Motion <= 10'd0;
+							end 
+			
+			else if(back2== 2'd1) begin
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b0;
+							dodge <= 1'b1;
+							back <= 1'b0;
+							
+				 if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) 
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);// You need to remove this and make both X and Y respond to keyboard input
+				 else if (Ball_X_Pos <= 10'd10 ||  BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1) 
+						Ball_X_Motion <= Ball_X_back;		
+				 else 
+					if(stand_left)
+					Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);
+						else if(stand_right)
+						Ball_X_Motion <= Ball_X_back;
+						else
+						Ball_X_Motion <= 10'd0;
+							end 
+		
+			else if ((keycode[7:0] == 8'h59 || keycode[15:8] == 8'h59 || keycode1[7:0] == 8'h59 || keycode1[15:8] == 8'h59)  && ~fight_2 && ~kick_2 && ~jump_2 && ~dodge_2 && back2 == 2'b0 && ~back_2)		begin		
+	  
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b1;
+							fight <= 1'b0;
+							jump <=1'b0;
+							dodge <= 1'b0;
+							back <= 1'b0;
+
+							
+					
+				if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) 
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);// You need to remove this and make both X and Y respond to keyboard input
+				 else if (Ball_X_Pos <= 10'd10 ||  BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1) 
+						Ball_X_Motion <= Ball_X_back;		
+				 else 
+					Ball_X_Motion <= 10'd0;					
+							end 
+		else if ((keycode[7:0] == 8'h5a || keycode[15:8] == 8'h5a || keycode1[7:0] == 8'h5a || keycode1[15:8] == 8'h5a) && ~fight_2 && ~kick_2 && ~jump_2 && ~dodge_2 && back2 == 2'b0 && ~back_2)		begin			
+		
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b1;
+							jump <= 1'b0;
+							dodge <= 1'b0;
+							back <= 1'b0;
+							
+					
+				if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) 
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);// You need to remove this and make both X and Y respond to keyboard input
+				 else if (Ball_X_Pos <= 10'd10 ||  BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1) 
+						Ball_X_Motion <= Ball_X_back;		
+				 else 
+					Ball_X_Motion <= 10'd0;					
+							end 
+		
+		else if ((keycode[7:0] == 8'h62 || keycode[15:8] == 8'h62 || keycode1[7:0] == 8'h62 || keycode1[15:8] == 8'h62) && ~kick_2 && ~fight_2 && ~jump_2 && back2 == 2'b0 && ~back_2)		begin					
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b0;
+							dodge <= 1'b1;
+							back <= 1'b0;
+					
+				if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) 
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);// You need to remove this and make both X and Y respond to keyboard input
+				 else if (Ball_X_Pos <= 10'd10 ||  BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1) 
+						Ball_X_Motion <= Ball_X_back;		
+				 else 
+					Ball_X_Motion <= 10'd0;					
+							end 
+							
+		else  if ((keycode[7:0] == 8'h52 || keycode[15:8] == 8'h52 || keycode1[7:0] == 8'h52 || keycode1[15:8] == 8'h52) && ~kick_2 && ~fight_2 && ~dodge_2 && back2 == 2'b0 && ~back_2)	begin
+		
+//							Ball_X_Motion <= Ball_X_Motion;
+							right <= 1'b0;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b1;
+							dodge <= 1'b0;
+							back <= 1'b0;
+						
+				if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) 
+				
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);// You need to remove this and make both X and Y respond to keyboard input
+						 
+				 else if (Ball_X_Pos <= 10'd10 ||  BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1) 
+				 
+						Ball_X_Motion <= Ball_X_back;		
+						
+				 else begin
+				if(keycode[7:0] == 8'h50 || keycode[15:8] == 8'h50 || keycode1[7:0] == 8'h50 || keycode1[15:8] == 8'h50) begin
+					Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);
+					end
+				 else if  (keycode[7:0] == 8'h4f || keycode[15:8] == 8'h4f || keycode1[7:0] == 8'h4f || keycode1[15:8] == 8'h4f) begin
+					Ball_X_Motion <= Ball_X_Step;
+					end
+					else	begin
+						Ball_X_Motion <= 10'd0;
+						end				
+							end 
+						end	
+							
+		else  if ((keycode[7:0] == 8'h50 || keycode[15:8] == 8'h50 || keycode1[7:0] == 8'h50 || keycode1[15:8] == 8'h50) && ~kick_2 && ~fight_2 && ~jump_2 && ~dodge_2 && back2 == 2'b0 && ~back_2)		begin
+		
+							right <= 1'b0;
+							left <= 1'b1;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b0;
+							dodge <= 1'b0;
+							back <= 1'b0;
+				
+				if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) begin
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);
+						 end
+				else if (  Ball_X_Pos <= 10'd10 || BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1 ) 
+							 Ball_X_Motion <= Ball_X_back;
+				else 
+					Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);
+			end
+			
+		 else if ((keycode[7:0] == 8'h4f || keycode[15:8] == 8'h4f || keycode1[7:0] == 8'h4f || keycode1[15:8] == 8'h4f) && ~kick_2 && ~fight_2 && ~jump_2 && ~dodge_2 && back2 == 2'b0 && ~back_2)		begin					
+
+							right <= 1'b1;
+							left <= 1'b0;
+							stand <= 1'b0;
+							kick <= 1'b0;
+							fight <= 1'b0;
+							jump <= 1'b0;
+							dodge <= 1'b0;
+							back <= 1'b0;
+
+				  if ( (Ball_X_Pos + 10'd80) >= Ball_X_Max ||  BallX1 > Ball_X_Pos && (BallX1 - Ball_X_Pos <= 10'd40) && near1) begin
+						 Ball_X_Motion <= (~ (Ball_X_back) + 1'b1);
+						 end
+				  else if (  Ball_X_Pos <= 10'd10 || BallX1 < Ball_X_Pos && ( Ball_X_Pos - BallX1 <= 10'd40) && near1 ) 
+							 Ball_X_Motion <= Ball_X_back;
+				  else 
+					Ball_X_Motion<= Ball_X_Step;
+						 end
+			else     
+			 begin
+			 Ball_X_Motion <= 10'b0;
+			 stand <= 1'b1;
+			 right <= 1'b0;
+			 left <= 1'b0;
+			 kick <= 1'b0;
+			 fight <= 1'b0;
+			 jump <= 1'b0;
+			 dodge <= 1'b0;
+			 back <= 1'b0;
+				end
+				
+				 Ball_Y_Pos <= (Ball_Y_Pos + Ball_Y_Motion);  // Update ball position
+				 Ball_X_Pos <= (Ball_X_Pos + Ball_X_Motion);
+				 
+			end
+			end
+			
+
+    assign BallX = Ball_X_Pos;
+	 assign BallY = Ball_Y_Pos;
+   
+
+endmodule

@@ -1,0 +1,1703 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1479087548
+!i10b 1
+!s100 2@;YleiQS51@UMb7^^WbN1
+IWCI0O;8[CkF7zZFBWRG_<1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1478845464
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1479087548.064000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z6 o-vlog01compat -work nios_system
+Z7 !s92 -vlog01compat -work nios_system +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules
+valtera_avalon_st_clock_crosser
+Z8 !s110 1479087551
+!i10b 1
+!s100 _kMN<BJ0mkgSFXTW`85Bh2
+IQ0KQV?P9ISLH]OZAT1Q>?1
+R2
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R5
+r1
+!s85 0
+31
+!s108 1479087551.566000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R6
+R7
+valtera_avalon_st_handshake_clock_crosser
+R8
+!i10b 1
+!s100 <TeLS^R[XXnBHVSJ0:LXK0
+Im<Cg]>;R9`3dEZ@?I7@gG1
+R2
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z9 L0 24
+R5
+r1
+!s85 0
+31
+!s108 1479087551.436000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R6
+R7
+valtera_merlin_arb_adder
+Z10 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R8
+!i10b 1
+!s100 K`mj4ab`UI=f=Bzd]0FbK0
+IFN4Yc^_IIlb<]_GOc4Mel2
+R2
+Z11 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z12 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z13 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z14 !s108 1479087551.706000
+Z15 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z17 o-sv -work nios_system
+Z18 !s92 -sv -work nios_system +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules
+valtera_merlin_arbitrator
+R10
+R8
+!i10b 1
+!s100 Ni=FjEDhlN5HaJIeO8C?D0
+I4J80U?EWij1VhoHbZ>_ze0
+R2
+R11
+S1
+R0
+R3
+R12
+R13
+L0 103
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R17
+R18
+valtera_merlin_burst_uncompressor
+R10
+Z19 !s110 1479087553
+!i10b 1
+!s100 GURQ=I3dUngBFBEkGhKmh3
+IB<ieCPQhS<F8oaA83SWon1
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+!s108 1479087553.940000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R17
+R18
+valtera_merlin_master_agent
+R10
+Z20 !s110 1479087554
+!i10b 1
+!s100 ;96Rc=znn;@WbB0jWGRRl1
+I2>R^oIZ^z3P^L@zbZ3kY?3
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+Z21 w1478845463
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R5
+r1
+!s85 0
+31
+!s108 1479087554.067000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R17
+R18
+valtera_merlin_master_translator
+R10
+R20
+!i10b 1
+!s100 6[_D]96gi`8O488PiFWUc1
+I7J<BneeVXcm?i`iK9Gzhk0
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv
+L0 30
+R5
+r1
+!s85 0
+31
+!s108 1479087554.357000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R17
+R18
+valtera_merlin_slave_agent
+R10
+R19
+!i10b 1
+!s100 3LfTAj;bB3aAXgCgCn_bT3
+IQX<;O^GW?Ub5d??^@[]6J2
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+L0 34
+R5
+r1
+!s85 0
+31
+!s108 1479087553.670000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R17
+R18
+valtera_merlin_slave_translator
+R10
+R20
+!i10b 1
+!s100 dTa]H8`_eei9>oMl>o5z71
+IB6`SFP<0a4?N^7PV^;k9k1
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R5
+r1
+!s85 0
+31
+!s108 1479087554.193000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R17
+R18
+valtera_reset_controller
+Z22 !s110 1479087547
+!i10b 1
+!s100 VEhLaE^KT@RiagZkfkKI93
+IE4A::>;5P_:iJ>?H2?CXz1
+R2
+R0
+Z23 w1478845457
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_controller.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+!s108 1479087547.063000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R6
+R7
+valtera_reset_synchronizer
+R22
+!i10b 1
+!s100 UTD:?4E=?>;X@do<;V;hQ1
+IUUo2WWBcZ0^16XBei4N;G0
+R2
+R0
+R23
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+R9
+R5
+r1
+!s85 0
+31
+!s108 1479087547.483000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+vnios_system
+!s110 1479087546
+!i10b 1
+!s100 2UW38?gIL=RMRO>F;1HGM2
+I29gbV`4DFQLWmYaoFNN_`3
+R2
+R0
+w1478845437
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/nios_system.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/nios_system.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1479087546.772000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/nios_system.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/nios_system.v|
+!i113 1
+R6
+!s92 -vlog01compat -work nios_system +incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis
+vnios_system_irq_mapper
+R10
+R8
+!i10b 1
+!s100 ZGm6N;7Rn>m0leZMI91QY0
+I:zoYj:9MYl7`7=gUTTHZ^2
+R2
+!s105 nios_system_irq_mapper_sv_unit
+S1
+R0
+R23
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_irq_mapper.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+!s108 1479087551.206000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_irq_mapper.sv|
+!i113 1
+R17
+R18
+vnios_system_jtag_uart_0
+Z24 !s110 1479087550
+!i10b 1
+!s100 :MmM:0liXENO<Q^IUn]oh3
+IO71g]<fjedPEB;;8N]G?d2
+R2
+R0
+Z25 w1478845439
+Z26 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_jtag_uart_0.v
+Z27 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_jtag_uart_0.v
+L0 327
+R5
+r1
+!s85 0
+31
+Z28 !s108 1479087550.816000
+Z29 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_jtag_uart_0.v|
+Z30 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_jtag_uart_0.v|
+!i113 1
+R6
+R7
+vnios_system_jtag_uart_0_scfifo_r
+R24
+!i10b 1
+!s100 gXO9dTSOCmgV4Wb<09CVT0
+I>NiCFzzid4O7RHfo9eD5z1
+R2
+R0
+R25
+R26
+R27
+L0 240
+R5
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R6
+R7
+vnios_system_jtag_uart_0_scfifo_w
+R24
+!i10b 1
+!s100 ;ji9i5zOlD>aj4S7R=57E3
+I6mQ>AEZm_k:o660GSXD:P0
+R2
+R0
+R25
+R26
+R27
+L0 77
+R5
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R6
+R7
+vnios_system_jtag_uart_0_sim_scfifo_r
+R24
+!i10b 1
+!s100 V;:bhJWmeiWSzYG>kF<HX2
+IkjYLd8g]hSLaDL1Y@ILT?1
+R2
+R0
+R25
+R26
+R27
+L0 162
+R5
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R6
+R7
+vnios_system_jtag_uart_0_sim_scfifo_w
+R24
+!i10b 1
+!s100 O?7hL]]l>bOaFz[D84m]m2
+IKTjiVR>f226h4SBUH2<^h1
+R2
+R0
+R25
+R26
+R27
+R4
+R5
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R6
+R7
+vnios_system_key
+R24
+!i10b 1
+!s100 DjR]WSk:E1ceZMCc9`S4i0
+I?iHmmhD<[lYW_;I639EKb3
+R2
+R0
+R25
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_key.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_key.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087550.675000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_key.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_key.v|
+!i113 1
+R6
+R7
+vnios_system_Keycode
+!s110 1479094290
+!i10b 1
+!s100 PG<AD>iKIjLacghEo7LSn3
+ITn@KB=VY`o?[VT2zK@FQP2
+R2
+R0
+w1478845438
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_Keycode.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_Keycode.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479094290.581000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_Keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_Keycode.v|
+!i113 1
+R6
+R7
+nnios_system_@keycode
+vnios_system_mm_interconnect_0
+R22
+!i10b 1
+!s100 XOYWTAlR_@9ea?XU1X2U42
+I83;O<bKc31i84;Ug2gk8g1
+R2
+R0
+R23
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1479087547.633000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!i113 1
+R6
+R7
+vnios_system_mm_interconnect_0_avalon_st_adapter
+R22
+!i10b 1
+!s100 bB`0U][J6Ta7W15AOY]kI0
+I;jbm9DFHVg>zD7eJ<`Rl?2
+R2
+R0
+Z31 w1478845465
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1479087547.902000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R6
+R7
+vnios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R10
+R8
+!i10b 1
+!s100 b5MC7IN[92h@f=T203cnn2
+IZdJH=OZVZe@HJlAA5W9P;3
+R2
+!s105 nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R31
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+L0 66
+R5
+r1
+!s85 0
+31
+!s108 1479087551.326000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_cmd_demux
+R10
+Z32 !s110 1479087552
+!i10b 1
+!s100 hY<QGh5<==FNB[b3m7]`12
+IQ[gelRLFOo3^l_<15ZG[>0
+R2
+!s105 nios_system_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv
+Z33 L0 43
+R5
+r1
+!s85 0
+31
+!s108 1479087552.736000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_cmd_demux_001
+R10
+R32
+!i10b 1
+!s100 Y?^?R=Df=m1B3h3Pc=gG31
+IP]LeMG^^=:BXJ3oR>24`D1
+R2
+!s105 nios_system_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv
+R33
+R5
+r1
+!s85 0
+31
+!s108 1479087552.616000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_cmd_mux
+R10
+R32
+!i10b 1
+!s100 ;WFCm7^VYFKj@2Xl>lQJ@1
+I@@aPXT4Y>L=BRH6Gl>f[=3
+R2
+!s105 nios_system_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv
+Z34 L0 51
+R5
+r1
+!s85 0
+31
+!s108 1479087552.496000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_cmd_mux_001
+R10
+R32
+!i10b 1
+!s100 B7Oj3Nn0KUTV`F0ThYD;f0
+ImZ9;SRFQ2TZOh_1gTOlo<2
+R2
+!s105 nios_system_mm_interconnect_0_cmd_mux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv
+R34
+R5
+r1
+!s85 0
+31
+!s108 1479087552.375000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router
+R10
+R19
+!i10b 1
+!s100 JH5zXS`f]l<a2W`:Q88EH2
+INRcKIQ9DKWYc`5PNXkL>n1
+R2
+Z35 !s105 nios_system_mm_interconnect_0_router_sv_unit
+S1
+R0
+R3
+Z36 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router.sv
+Z37 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router.sv
+Z38 L0 84
+R5
+r1
+!s85 0
+31
+Z39 !s108 1479087553.256000
+Z40 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router.sv|
+Z41 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_001
+R10
+R19
+!i10b 1
+!s100 9N2I<1<<<Oc_<^^4Q8c713
+IB[KdM>5FiDSL:0J8PT;QE0
+R2
+Z42 !s105 nios_system_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R3
+Z43 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv
+Z44 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv
+R38
+R5
+r1
+!s85 0
+31
+Z45 !s108 1479087553.096000
+Z46 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv|
+Z47 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_001_default_decode
+R10
+R19
+!i10b 1
+!s100 HmKYI6;1QjRZ=SNDe82TC1
+Il_4DK[dSO_eFOSJLz=GI@3
+R2
+R42
+S1
+R0
+R3
+R43
+R44
+Z48 L0 45
+R5
+r1
+!s85 0
+31
+R45
+R46
+R47
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_002
+R10
+R19
+!i10b 1
+!s100 AP8860zEPH=_Ymc^]jWDZ2
+IEhoQ<6i`8Ri@IF<8X:0cY2
+R2
+Z49 !s105 nios_system_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R3
+Z50 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv
+Z51 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv
+R38
+R5
+r1
+!s85 0
+31
+Z52 !s108 1479087552.996000
+Z53 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv|
+Z54 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_002_default_decode
+R10
+R19
+!i10b 1
+!s100 ;3UFWcLV9B^AUj9O?o@:O3
+I^AP^bNiUCP3NPS:06E7;f2
+R2
+R49
+S1
+R0
+R3
+R50
+R51
+R48
+R5
+r1
+!s85 0
+31
+R52
+R53
+R54
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_003
+R10
+R32
+!i10b 1
+!s100 Pg35H3N_7IVJ9gfl2b7R72
+IMJjC80CKZl?EfE8mZUYF42
+R2
+Z55 !s105 nios_system_mm_interconnect_0_router_003_sv_unit
+S1
+R0
+R3
+Z56 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv
+Z57 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv
+R38
+R5
+r1
+!s85 0
+31
+Z58 !s108 1479087552.846000
+Z59 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv|
+Z60 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_003_default_decode
+R10
+R32
+!i10b 1
+!s100 1UZdcnUWC^lfAHl7;KcVE1
+IBOWW`@j_Oni0:S_?=2@]i0
+R2
+R55
+S1
+R0
+R3
+R56
+R57
+R48
+R5
+r1
+!s85 0
+31
+R58
+R59
+R60
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_router_default_decode
+R10
+R19
+!i10b 1
+!s100 ?[Sfijz8h>il0>K>U;IoZ2
+I5z33N9[G1QGVIUND@1WOU1
+R2
+R35
+S1
+R0
+R3
+R36
+R37
+R48
+R5
+r1
+!s85 0
+31
+R39
+R40
+R41
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_rsp_demux
+R10
+R32
+!i10b 1
+!s100 =zfM;?;mTmSiX1oGiCYI`2
+I;MkoREG2Y7QM5ODb@b>i62
+R2
+!s105 nios_system_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv
+R33
+R5
+r1
+!s85 0
+31
+!s108 1479087552.254000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_rsp_demux_001
+R10
+R32
+!i10b 1
+!s100 i7G9HBmIL^ama_CgJH2W:1
+I]IW1<7YW7D18WgUQJ[AN80
+R2
+!s105 nios_system_mm_interconnect_0_rsp_demux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv
+R33
+R5
+r1
+!s85 0
+31
+!s108 1479087552.106000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_rsp_mux
+R10
+R32
+!i10b 1
+!s100 :;Q[Gm29bEY4dV7H@oeRH1
+I[871SXEbaY3MLa3N6_>ch1
+R2
+!s105 nios_system_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv
+R34
+R5
+r1
+!s85 0
+31
+!s108 1479087551.976000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R17
+R18
+vnios_system_mm_interconnect_0_rsp_mux_001
+R10
+R8
+!i10b 1
+!s100 8i_eh0Ge9Jjh1CO[2BoTc1
+IN`ZRM5MC>]^OJo9=lQcZ>2
+R2
+!s105 nios_system_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv
+R34
+R5
+r1
+!s85 0
+31
+!s108 1479087551.856000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R17
+R18
+vnios_system_nios2_qsys_0
+Z61 !s110 1479087549
+!i10b 1
+!s100 OfDdZ4_691i^KC8[=R2e13
+IiifO2bRfn<km_91XKNDzW3
+R2
+R0
+R25
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1479087549.280000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0.v|
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu
+R61
+!i10b 1
+!s100 mVBW:i1THk1i>C]1i5WVS3
+I[N>FUe5IU0M>>@PJ[gm4g3
+R2
+R0
+R21
+Z62 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu.v
+Z63 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu.v
+L0 2981
+R5
+r1
+!s85 0
+31
+Z64 !s108 1479087549.404000
+Z65 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu.v|
+Z66 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu.v|
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_debug_slave_sysclk
+R61
+!i10b 1
+!s100 R;HXW`FJC4<@liih@P7IM3
+IM0Q4PidB2@f2]hUMGdO7f0
+R2
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_sysclk.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087549.749000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_debug_slave_tck
+R61
+!i10b 1
+!s100 2zcCA[gE2@diU5nUVkY=R2
+I=`QFnlG6;2Xcf83Ug>NQ_1
+R2
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_tck.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087549.958000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_tck.v|
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_debug_slave_wrapper
+R24
+!i10b 1
+!s100 7lEZaEMaiG^G:Y`@ZCKZF1
+IRXH8aF@>eaXd9NH=Qm;Lh1
+R2
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_wrapper.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087550.124000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_avalon_reg
+R61
+!i10b 1
+!s100 =^?ea7[Oh1B@ZN6VBkOWP0
+IHeQonVeKNNQQgSi1e8PeG2
+R2
+R0
+R21
+R62
+R63
+L0 2177
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci
+R61
+!i10b 1
+!s100 cSP5Nn>dYfD?ELR;]HlYW3
+IQ2D6ZkBYCPGAk>Uj[=;jU0
+R2
+R0
+R21
+R62
+R63
+L0 2510
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_break
+R61
+!i10b 1
+!s100 CcccK0lV2RMSkLa4mz0;O0
+IY<kPPODTL]iVcZklLdm<i3
+R2
+R0
+R21
+R62
+R63
+L0 292
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_compute_input_tm_cnt
+R61
+!i10b 1
+!s100 Jom33VTUFNX>OzIc;AKOS1
+I03m9n4[1VUO[ZozfPck;70
+R2
+R0
+R21
+R62
+R63
+L0 1426
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_dbrk
+R61
+!i10b 1
+!s100 Hib?^Tz:GZiY@6_:f6Xzc0
+Ick__Aef2JFoQ?zkMOO9fh3
+R2
+R0
+R21
+R62
+R63
+L0 790
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_debug
+R61
+!i10b 1
+!s100 XK<`6DDHY9VB[:N3HXgiD1
+In4oPLCDYZI6Fe99mOe]YV0
+R2
+R0
+R21
+R62
+R63
+L0 151
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_dtrace
+R61
+!i10b 1
+!s100 SgOVRi==dOKO82U6_U0C:2
+I?CUzN_Ic^@hV0IR7gjI:O0
+R2
+R0
+R21
+R62
+R63
+L0 1345
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_fifo
+R61
+!i10b 1
+!s100 5fQ]]7oVBA:?jERJgZjRM3
+IkJkQSdK[4EkAo]iR:_z`d0
+R2
+R0
+R21
+R62
+R63
+L0 1585
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_fifo_cnt_inc
+R61
+!i10b 1
+!s100 <[4R2J:oVbER`b[HQ36Qe2
+IkT]K;DU0[J99hbR^[711U3
+R2
+R0
+R21
+R62
+R63
+L0 1539
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_fifo_wrptr_inc
+R61
+!i10b 1
+!s100 n1h=Og9N9]E^9_[5AXHY]0
+IGN^D[gBBoe:P0]jij]6TD2
+R2
+R0
+R21
+R62
+R63
+L0 1497
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_im
+R61
+!i10b 1
+!s100 z2BFPJ3<ioffXS^IRmFPF3
+IYk9m5;KVTl[fj9;C0gzNn2
+R2
+R0
+R21
+R62
+R63
+L0 2092
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_itrace
+R61
+!i10b 1
+!s100 Ud<IEdKDDO1MMQa8YlHz31
+I=fUJCifB<TR=1UY3mc@1i1
+R2
+R0
+R21
+R62
+R63
+L0 976
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_pib
+R61
+!i10b 1
+!s100 VCBDjChcLl>iHB@DoLAS^2
+Ic9fn8YibL:lb7?KkfGzU?3
+R2
+R0
+R21
+R62
+R63
+L0 2070
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_td_mode
+R61
+!i10b 1
+!s100 XTA0jdoMH_JkI11BLf04^3
+Ig]_0OBRmVV:XD?[>QFII?1
+R2
+R0
+R21
+R62
+R63
+L0 1278
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_oci_xbrk
+R61
+!i10b 1
+!s100 AI@gTjN5L[Lb9I2D[LfjK1
+I`2fzDTWCh_cX0_3dFi2k00
+R2
+R0
+R21
+R62
+R63
+L0 584
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_ocimem
+R61
+!i10b 1
+!s100 Kaa]l`iC[5YWX_I=`@CIW2
+I5@^=Ya8E8dJYDPZP4AAg:0
+R2
+R0
+R21
+R62
+R63
+L0 2332
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_nios2_performance_monitors
+R61
+!i10b 1
+!s100 Gel=A_e0XGD<1ncj3^g@P2
+ImGD[QTcm<KD?gVnOQkkN[1
+R2
+R0
+R21
+R62
+R63
+L0 2161
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_ociram_sp_ram_module
+R61
+!i10b 1
+!s100 3a@Jbn@E=P`z9Pf?h71JM3
+IVQkQg=D2B[i6_64QaMR9h2
+R2
+R0
+R21
+R62
+R63
+L0 2269
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_register_bank_a_module
+R61
+!i10b 1
+!s100 ;7m8bUN<f7;Zig@z9NNSl2
+I4TVUk]@bZ[E0ek0?Gaf473
+R2
+R0
+R21
+R62
+R63
+R4
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_register_bank_b_module
+R61
+!i10b 1
+!s100 UF8Fk9m1D?;@gdjfzzi0h0
+IQ;RY:BhmHofX1H^8VIoI]0
+R2
+R0
+R21
+R62
+R63
+L0 86
+R5
+r1
+!s85 0
+31
+R64
+R65
+R66
+!i113 1
+R6
+R7
+vnios_system_nios2_qsys_0_cpu_test_bench
+R24
+!i10b 1
+!s100 O0@U4HMB8TagiR1F:R6mb1
+IfK]aB@7iHB3VY4F]Z:bAE0
+R2
+R0
+R21
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_test_bench.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087550.514000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_nios2_qsys_0_cpu_test_bench.v|
+!i113 1
+R6
+R7
+vnios_system_onchip_memory2_0
+R61
+!i10b 1
+!s100 4PCj?YoC^C?E<E^b72]Y_2
+Ib33<jRj2JdV9JkR<M<1mC2
+R2
+R0
+Z67 w1478845440
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_onchip_memory2_0.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087549.132000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_onchip_memory2_0.v|
+!i113 1
+R6
+R7
+vnios_system_otg_hpi_address
+R1
+!i10b 1
+!s100 cWVDfmAU1LozeX<8a:YGS2
+I6N0SO2LFDV@K=2:nRDZX]0
+R2
+R0
+R67
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_address.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_address.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087548.951000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_address.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_address.v|
+!i113 1
+R6
+R7
+vnios_system_otg_hpi_cs
+R1
+!i10b 1
+!s100 Ma[RJe=eD4K4a@0j23K__2
+If`2FY7_oRnaPFS1VA^V??1
+R2
+R0
+R67
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_cs.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_cs.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087548.824000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_cs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_cs.v|
+!i113 1
+R6
+R7
+vnios_system_otg_hpi_data
+R1
+!i10b 1
+!s100 ^`FVFDMa]9g62RdP`7^g:0
+IQD>nb7I0f:@825UzkVIH22
+R2
+R0
+Z68 w1478845441
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_data.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_data.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087548.664000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_otg_hpi_data.v|
+!i113 1
+R6
+R7
+vnios_system_sdram
+R1
+!i10b 1
+!s100 435<UPL7zbobFkJVe8Y5>1
+Ige9aHCd8N<NmeIoL2eSn53
+R2
+R0
+R68
+Z69 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram.v
+Z70 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram.v
+L0 158
+R5
+r1
+!s85 0
+31
+Z71 !s108 1479087548.514000
+Z72 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram.v|
+Z73 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram.v|
+!i113 1
+R6
+R7
+vnios_system_sdram_input_efifo_module
+R1
+!i10b 1
+!s100 `4U:gH>zF5PR=6ZNAM;of1
+Ic`Col3=[o3EV_>=96=6:83
+R2
+R0
+R68
+R69
+R70
+R4
+R5
+r1
+!s85 0
+31
+R71
+R72
+R73
+!i113 1
+R6
+R7
+vnios_system_sdram_pll
+R1
+!i10b 1
+!s100 T[FE[obTmG?PzU3TS=2AD1
+Ih6lc=SM>K:>UQ85GFHS_C3
+R2
+R0
+Z74 w1478845448
+Z75 8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram_pll.v
+Z76 FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram_pll.v
+L0 218
+R5
+r1
+!s85 0
+31
+Z77 !s108 1479087548.344000
+Z78 !s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram_pll.v|
+Z79 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sdram_pll.v|
+!i113 1
+R6
+R7
+vnios_system_sdram_pll_altpll_lqa2
+R1
+!i10b 1
+!s100 ^STn66kl3A_3`>k^;zA=_0
+IOVGFIoiO8YN3]jaCh@Tm?3
+R2
+R0
+R74
+R75
+R76
+L0 131
+R5
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R6
+R7
+vnios_system_sdram_pll_dffpipe_l2c
+R1
+!i10b 1
+!s100 elWh6@kIZm@nImFLZLo1<2
+IDYjNCFI1_Blk4eFlL=dCW3
+R2
+R0
+R74
+R75
+R76
+L0 38
+R5
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R6
+R7
+vnios_system_sdram_pll_stdsync_sv6
+R1
+!i10b 1
+!s100 h?gUGNi8f=H5NC4YTaSd83
+I_`3604`BG2`gM`X1XhG^`1
+R2
+R0
+R74
+R75
+R76
+L0 99
+R5
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R6
+R7
+vnios_system_sysid_qsys_0
+R1
+!i10b 1
+!s100 NZWN3J8fT[O>UZT[o0@M33
+I^6[ICf]mSGIdoXBT]Yz0E0
+R2
+R0
+R74
+8C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sysid_qsys_0.v
+FC:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sysid_qsys_0.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1479087548.224000
+!s107 C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules|C:/Users/zhu_j/Desktop/FPGA/Lab8_usb/lab8_soc/synthesis/submodules/nios_system_sysid_qsys_0.v|
+!i113 1
+R6
+R7

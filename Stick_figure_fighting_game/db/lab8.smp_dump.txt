@@ -1,0 +1,209 @@
+
+State Machine - |lab8|mode_choose:mode_choose0|AI:AI0|gravity:gravity1|state
+Name state.state3 state.state2 state.state1 state.state0 
+state.state0 0 0 0 0 
+state.state1 0 0 1 1 
+state.state2 0 1 0 1 
+state.state3 1 0 0 1 
+
+State Machine - |lab8|mode_choose:mode_choose0|ball_second:ball_second_instance|gravity:gravity1|state
+Name state.state3 state.state2 state.state1 state.state0 
+state.state0 0 0 0 0 
+state.state1 0 0 1 1 
+state.state2 0 1 0 1 
+state.state3 1 0 0 1 
+
+State Machine - |lab8|ball:ball_instance|gravity:gravity0|state
+Name state.state3 state.state2 state.state1 state.state0 
+state.state0 0 0 0 0 
+state.state1 0 0 1 1 
+state.state2 0 1 0 1 
+state.state3 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|happy_ending:happy_ending1|state
+Name state.stand state.happy_ending2 state.happy_ending1 
+state.stand 0 0 0 
+state.happy_ending1 1 0 1 
+state.happy_ending2 1 1 0 
+
+State Machine - |lab8|blitter:comb_11|sad_ending:sad_ending1|state
+Name state.stand state.sad_ending2 state.sad_ending1 
+state.stand 0 0 0 
+state.sad_ending1 1 0 1 
+state.sad_ending2 1 1 0 
+
+State Machine - |lab8|blitter:comb_11|back:back11|state
+Name state.stand state.back2 state.back1 
+state.stand 0 0 0 
+state.back1 1 0 1 
+state.back2 1 1 0 
+
+State Machine - |lab8|blitter:comb_11|dodge:dodge10|state
+Name state.Wait state.dodge2 state.dodge1 state.stand 
+state.stand 0 0 0 0 
+state.dodge1 0 0 1 1 
+state.dodge2 0 1 0 1 
+state.Wait 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|jump:jump10|state
+Name state.Wait state.jump4 state.jump3 state.jump2 state.jump1 state.stand 
+state.stand 0 0 0 0 0 0 
+state.jump1 0 0 0 0 1 1 
+state.jump2 0 0 0 1 0 1 
+state.jump3 0 0 1 0 0 1 
+state.jump4 0 1 0 0 0 1 
+state.Wait 1 0 0 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|fight:fight10|state
+Name state.Wait state.fight2 state.fight1 state.stand 
+state.stand 0 0 0 0 
+state.fight1 0 0 1 1 
+state.fight2 0 1 0 1 
+state.Wait 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|kick:kick10|state
+Name state.Wait state.kick2 state.kick1 state.stand 
+state.stand 0 0 0 0 
+state.kick1 0 0 1 1 
+state.kick2 0 1 0 1 
+state.Wait 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|standpic:standpic1|state
+Name state.run3 state.run2 state.run1 state.stand 
+state.stand 0 0 0 0 
+state.run1 0 0 1 1 
+state.run2 0 1 0 1 
+state.run3 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|happy_ending:happy_ending0|state
+Name state.stand state.happy_ending2 state.happy_ending1 
+state.stand 0 0 0 
+state.happy_ending1 1 0 1 
+state.happy_ending2 1 1 0 
+
+State Machine - |lab8|blitter:comb_11|sad_ending:sad_ending0|state
+Name state.stand state.sad_ending2 state.sad_ending1 
+state.stand 0 0 0 
+state.sad_ending1 1 0 1 
+state.sad_ending2 1 1 0 
+
+State Machine - |lab8|blitter:comb_11|back:back10|state
+Name state.stand state.back2 state.back1 
+state.stand 0 0 0 
+state.back1 1 0 1 
+state.back2 1 1 0 
+
+State Machine - |lab8|blitter:comb_11|dodge:dodge0|state
+Name state.Wait state.dodge2 state.dodge1 state.stand 
+state.stand 0 0 0 0 
+state.dodge1 0 0 1 1 
+state.dodge2 0 1 0 1 
+state.Wait 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|jump:jump0|state
+Name state.Wait state.jump4 state.jump3 state.jump2 state.jump1 state.stand 
+state.stand 0 0 0 0 0 0 
+state.jump1 0 0 0 0 1 1 
+state.jump2 0 0 0 1 0 1 
+state.jump3 0 0 1 0 0 1 
+state.jump4 0 1 0 0 0 1 
+state.Wait 1 0 0 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|fight:fight0|state
+Name state.Wait state.fight2 state.fight1 state.stand 
+state.stand 0 0 0 0 
+state.fight1 0 0 1 1 
+state.fight2 0 1 0 1 
+state.Wait 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|kick:kick0|state
+Name state.Wait state.kick2 state.kick1 state.stand 
+state.stand 0 0 0 0 
+state.kick1 0 0 1 1 
+state.kick2 0 1 0 1 
+state.Wait 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|standpic:standpic0|state
+Name state.run3 state.run2 state.run1 state.stand 
+state.stand 0 0 0 0 
+state.run1 0 0 1 1 
+state.run2 0 1 0 1 
+state.run3 1 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|state_machine1:state1|state
+Name state.state5 state.state4 state.state3 state.state2 state.state1 state.reset 
+state.reset 0 0 0 0 0 0 
+state.state1 0 0 0 0 1 1 
+state.state2 0 0 0 1 0 1 
+state.state3 0 0 1 0 0 1 
+state.state4 0 1 0 0 0 1 
+state.state5 1 0 0 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|state_machine:state0|state
+Name state.state5 state.state4 state.state3 state.state2 state.state1 state.reset 
+state.reset 0 0 0 0 0 0 
+state.state1 0 0 0 0 1 1 
+state.state2 0 0 0 1 0 1 
+state.state3 0 0 1 0 0 1 
+state.state4 0 1 0 0 0 1 
+state.state5 1 0 0 0 0 1 
+
+State Machine - |lab8|blitter:comb_11|hp:hp0|state
+Name state.is_jump2 state.is_jump1 state.is_fight2 state.is_fight1 state.is_kick2 state.is_kick1 state.S_kick1 state.S_jump2 state.S_jump1 state.S_fight2 state.S_kick2 state.S_fight1 state.normal 
+state.normal 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.S_fight1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.S_kick2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.S_fight2 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.S_jump1 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.S_jump2 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.S_kick1 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.is_kick1 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.is_kick2 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.is_fight1 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.is_fight2 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.is_jump1 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.is_jump2 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |lab8|nios_system:nios_system|nios_system_sdram:sdram|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |lab8|nios_system:nios_system|nios_system_sdram:sdram|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |lab8|nios_system:nios_system|nios_system_sdram:sdram|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |lab8|nios_system:nios_system|nios_system_sdram:sdram|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |lab8|nios_system:nios_system|nios_system_nios2_qsys_0:nios2_qsys_0|nios_system_nios2_qsys_0_cpu:cpu|nios_system_nios2_qsys_0_cpu_nios2_oci:the_nios_system_nios2_qsys_0_cpu_nios2_oci|nios_system_nios2_qsys_0_cpu_debug_slave_wrapper:the_nios_system_nios2_qsys_0_cpu_debug_slave_wrapper|nios_system_nios2_qsys_0_cpu_debug_slave_tck:the_nios_system_nios2_qsys_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
